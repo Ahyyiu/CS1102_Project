@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <style>  
+      body{ background-color: aliceblue;}
+ .container{
+   
+    margin:fit-content;
+    text-align:initial;
+    background-color: rgb(248, 253, 255);
+    width: 800px;
+    border: 10px solid rgb(0, 23, 128);
+    padding: 200px;
+    margin: 100px;
+    text-size-adjust:  100px;;
+
+
+ }
+
+ .coh{ text-decoration: underline;
+
+    font-size: large;
+    font-family: fantasy;
+ }
+
+ img{ 
+        width: 100%;
+        float: right;
+    }   
+    </style>
+<body>CS1102 Project (2023-2024 Semester A)<br>
+     CS1102-Project-Lab3_Mon_1300-Group2
+
+<div class="container" > 
+<h1>Experience</h1>
+The project could enhance the experience of programming. Throughout the project, we are facing severals challenges such as understanding the codes and using them effectively.
+Moreover, this project could enable us to organizing webpages and classifying images.
+
+<h2>Result</h2>
+<p1>In The first part of the code extracts a dataset from a zip file, retrieves the file paths and class labels, and organizes them in a DataFrame. It thenalso provides information about the dataset's size, number of classes, and the count of images in each class.
+</p1>
+<img src="CS Result p1.png">
+
+<p2>The second part uses the train_test_split function to divide the dataset into training, testing, and validation sets. It then assigns the file paths and class labels to each set and prints the sizes of the sets for reference
+</p2>
+<img src="CS Result p2.png">
+
+<p3>The third part creates ImageDataGenerator objects for training, validation, and testing. These objects are configured with specific parameters for data augmentation, batch sizes, and other settings. They are used to flow data from the DataFrames, providing augmented training data and non-augmented validation and testing data in batches.
+</p3>
+<img src="CS result p3.png">
+
+<p4>The fourth part builds and trains a model using the EfficientNetB5 architecture with pre-trained weights. It fine-tunes the model by unfreezing and training the last few layers. The model is compiled with appropriate settings, and a learning rate scheduler is used to adjust the learning rate during training.
+</p4>
+<img src="CS result p4.png">
+
+<p5>In the next section, the trained model will be evaluated on the test set, and the test loss and accuracy will be printed. Additionally, the training and validation loss and accuracy over epochs will be plotted, with a focus on highlighting the epochs with the lowest validation loss and the highest validation accuracy.
+</p5>
+<img src="CS result p5.1 .png">
+<img src="CS result p5.2 .png">
+
+<p6>>Following that, the trained model will be evaluated on the training, validation, and test sets using the respective generators. The evaluation results, including the loss and accuracy for each set, will be printed.
+</p6>
+<img src="CS result p6.png">
+
+<p7>In the seventh section, predictions will be generated using the trained model, and a confusion matrix will be computed and plotted using matplotlib. The confusion matrix provides insights into the model's performance, displaying the number of true positives, true negatives, false positives, and false negatives for each class. 
+</p7>
+<img src="CS p7.png">
+
+<p8>By using the classification_report function from sklearn.metrics, the report is printed to the console, displaying the metrics for each class in a tabular format.
+</p8>
+<img src="CS p8.png">
+
+<p9>Lastly, the code saves the trained model to an HDF5 file, loads the model from the saved file, defines a function to predict and display the class label of an image using the loaded model, and demonstrates the prediction by calling the function with a test image.
+</p9>
+<img src="CS p9.png">
+</div>
+</body>
+
+
+
+
+</html>
