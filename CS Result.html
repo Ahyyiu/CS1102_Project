@@ -47,20 +47,25 @@
 </p1>
 <img src="CS Result p1.png">
 </table>
+<table>  
 <p2>
 The second part uses the train_test_split function to divide the dataset into training, testing, and validation sets. It then assigns the file paths and class labels to each set and prints the sizes of the sets for reference 
 </p2>
 <img src="CS Result p2.png">
-
+</table>
+    <table>
 <p3>
 The third part creates ImageDataGenerator objects for training, validation, and testing. These items set specific parameters for data augmentation, batch size, and other settings. They provide non-augmented validation and testing data and augmented training data in batches from the DataFrame. 
 </p3>
 <img src="CS result p3.png">
-
+    </table>
+    <table>
 <p4>
 Using the pre-trained weights and the EfficientNetB5 framework, the model is built and trained in the fourth section. It refines the model by thawing and teaching the last layers. After building the model with appropriate settings, a learning rate scheduler is used to modify the learning rate during training. The trained model will be evaluated on a test set in the following steps, after which the test accuracy and loss will be printed.
 </p4>
 <img src="CS result p4.png">
+    </table>
+    <table>
 
 <p5>
 Plots of training, validation accuracy, and loss of calendars will also be drawn, highlighting the calendars with the best validation accuracy and lowest validation loss. Using appropriate generators, the trained models will be evaluated on the training, validation, and test sets. 
@@ -68,26 +73,34 @@ Plots of training, validation accuracy, and loss of calendars will also be drawn
 </p5>
 <img src="CS result p5.1 .png">
 <img src="CS result p5.2 .png">
-
+    </table>
+    <table>
 <p6>
     The evaluation results will be printed along with the accuracy and loss for each set. The trained model will be used to build the predictions in Section 7, and Matplotlib will be used to build and plot the confusion matrix. 
 </p6>
 <img src="CS result p6.png">
+    </table>
+    <table>
 
 <p7>
     The confusion matrix displays the number of true positives, true negatives, false positives, and false negatives for each category, providing insight into the model's performance. 
 </p7>
 <img src="CS p7.png">
+    </table>
+    <table>
 
 <p8>
  By using the classification_report function in sklearn. metrics, the results are published to the console as a tabular display of each class metric. 
 </p8>
 <img src="CS p8.png">
+    </table>
+    <table>
 
 <p9>
 Lastly, the code saves the trained model to an HDF5 file, loads the model from the saved file, defines a function to predict and display the class label of an image using the loaded model, and demonstrates the prediction by calling the function with a test image.
 </p9>
 <img src="CS p9.png">
+    </table>
 
 <script> function returnToHomePage() {
                 window.location.href = "CS1102-Project-Lab3_Mon_1300-Group 2.html";
